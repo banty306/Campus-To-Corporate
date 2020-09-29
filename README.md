@@ -24,6 +24,13 @@ OR
   - Open the file in https://colab.research.google.com/
 
 ## Importatnt Insights
+
+> HeatMap.
+ > Correlation between each parameter of the given dataset.
+ 
+<img src="./screenshot/cleaned-data-heatmap.png" width="100%">
+
+
  > Academics Vs Salary
  > The academics consists of marks of 10, 12 and your college GPA. (Baically the average of all three)
  
@@ -58,17 +65,35 @@ Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd dillinger
-$ npm install -d
-$ node app
+coverage>=4.0.3
+engarde>=0.3.1
+ipython>=4.1.2
+jupyter>=1.0.0
+matplotlib>=1.5.1
+notebook>=4.1.0
+numpy>=1.10.4
+pandas>=0.17.1
+seaborn>=0.7.0
+q>=2.6
+python-dotenv>=0.5.0
+watermark>=1.3.0
+pytest>=2.9.2
+tqdm
+jupyter
+ipython
+numpy
+pandas
+matplotlib
+watermark
+scikit-learn
+scipy
+nbdime
+runipy
+$ pip install -d
+
 ```
 
-For production environments...
 
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
-```
 
 ### Download the cleaned dataset
 
@@ -76,35 +101,11 @@ You can download the project or specific datafile.
 
 | Plugin | README |
 | ------ | ------ |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| GitHub | https://github.com/banty306/AMCAT |
+| Google Drive ||
+| OneDrive | |
 
 
-
-### Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-```sh
-$ node app
-```
-
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma test
-```
 
 
 License
