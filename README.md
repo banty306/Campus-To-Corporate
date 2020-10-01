@@ -6,9 +6,7 @@
 
 So, This project is drwaing insight from the data avilable on Aspiringmind India website. 
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+ 
 
 # About the dataset.
 
@@ -60,7 +58,7 @@ OR
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+
 
 Install the dependencies and devDependencies and start the server.
 
